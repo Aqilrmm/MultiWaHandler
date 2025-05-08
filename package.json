@@ -1,0 +1,22 @@
+{
+  "name": "wa-con",
+  "version": "1.0.0",
+  "description": "WhatsApp Bot dengan Express",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.1",
+    "mysql2": "^2.3.3",
+    "qrcode-terminal": "^0.12.0",
+    "sequelize": "^6.29.3",
+    "whatsapp-web.js": "^1.16.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
