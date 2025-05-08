@@ -25,6 +25,8 @@ COPY package*.json ./
 RUN npm install
 
 COPY . .
+# Create sessions directory with proper permissions
+RUN mkdir -p sessions && chown -R node:node /app
 
 EXPOSE 3000
 

@@ -4,7 +4,8 @@
   "description": "WhatsApp Bot dengan Express",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "dependencies": {
     "axios": "^0.21.1",
